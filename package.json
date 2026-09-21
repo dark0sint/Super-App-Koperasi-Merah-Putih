@@ -1,0 +1,26 @@
+{
+  "name": "koperasi-merah-putih-api",
+  "version": "1.0.0",
+  "description": "Super App Koperasi Merah Putih - REST API backend (Simpan Pinjam, E-Money, POS/Mart, Inventori, Marketplace Desa, Administrasi Anggota, Microsite, Pengaduan, E-Learning, Program Pemerintah)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed:reset": "node src/scripts/resetDb.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lowdb": "^7.0.1",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.0.7"
+  }
+}
